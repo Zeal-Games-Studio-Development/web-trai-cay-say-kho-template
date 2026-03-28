@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trái Cây Sấy Tự Nhiên | Snack Ngon & Lành Mạnh</title>
+  <meta name="description" content="Chuyên xoài sấy, mít sấy, dâu sấy tự nhiên. Đặt ngay combo giảm giá.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Cormorant+Garamond:wght@600;700&family=Nunito:wght@400;700;800&family=Space+Grotesk:wght@500;700&family=Bebas+Neue&family=Lora:ital,wght@0,600;1,400&family=Source+Sans+3:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="theme-minimalist" id="app-body">
+
+  <!-- ===============================
+       THEME SWITCHER
+  ================================ -->
+  <div class="theme-switcher">
+    <button class="ts-toggle" id="tsToggle">🎨 Đổi Bố Cục</button>
+    <div class="ts-menu" id="tsMenu">
+      <h4>Chọn Bố Cục & Style</h4>
+      <div class="ts-buttons">
+        <button data-theme="theme-minimalist" class="active">1. Compact (Bán lẻ - 5 Cột)</button>
+        <button data-theme="theme-luxury">2. Luxury (Cao cấp - 3 Cột Lớn)</button>
+        <button data-theme="theme-vibrant">3. Vibrant Bold (Phá cách - Brutalist)</button>
+        <button data-theme="theme-organic">4. Organic (Mềm mại Sinh thái)</button>
+        <button data-theme="theme-rustic">5. Rustic (Truyền thống)</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===============================
+       HEADER BÁN HÀNG TỐI ƯU
+  ================================ -->
+  <header class="top-header">
+    <div class="container th-flex">
+      <span>Giao hàng miễn phí toàn quốc cho đơn từ 200k</span>
+      <div class="th-links">
+        <a href="#">Trở thành đại lý</a>
+        <a href="#">Kiểm tra đơn hàng</a>
+        <a href="#">Đăng nhập</a>
+      </div>
+    </div>
+  </header>
+  <header class="main-header">
+    <div class="container mh-flex">
+      <a href="#" class="logo">Snack<span>Nature</span></a>
+      <div class="search-box">
+        <input type="text" placeholder="Tìm xoài sấy, mít sấy, chuối sấy...">
+        <button>Tìm Kiếm</button>
+      </div>
+      <div class="header-cart">
+        📞 Hotline: 1900.8888
+        <a href="#" class="cart-btn">🛒 Giỏ hàng <span class="cart-count">3</span></a>
+      </div>
+    </div>
+  </header>
+  <nav class="cat-nav">
+    <div class="container cn-flex">
+      <a href="#" class="flash-tag">⚡ Flash Sale</a>
+      <a href="#products">Sấy Dẻo</a>
+      <a href="#products">Sấy Giòn</a>
+      <a href="#combo">Combo/Quà Tặng</a>
+      <a href="#about">Kiến thức sấy</a>
+    </div>
+  </nav>
+
+  <main class="ecom-main">
+    <!-- ===============================
+         1. MAIN BANNER & SIDE PROMOS
+    ================================ -->
+    <div class="container mt-16">
+      <div class="banner-layout">
+        <!-- Banner Chính -->
+        <div class="hero-banner">
+          <div class="hb-content">
+            <h2>MÙA LỄ HỘI<br>SNACK NGON KHÔNG LO BÉO</h2>
+            <p>100% Trái cây tự nhiên. Không đường tinh luyện.</p>
+            <button class="btn btn-primary">Mua ngay & nhận quà</button>
+          </div>
+          <!-- Hình ảnh cắt ghép chìm trong banner -->
+          <img src="assets/images/mango.png" class="hb-img1" alt="Xoài sấy">
+          <img src="assets/images/strawberry.png" class="hb-img2" alt="Dâu sấy">
+        </div>
+        <!-- Banner Phụ (Cho E-commerce) -->
+        <div class="side-banners">
+          <div class="sb-card sb-1">
+            <div class="sb-txt">
+              <h4>Mua 3 Tặng 1</h4>
+              <span>Dành cho Mít sấy giòn</span>
+            </div>
+            <img src="assets/images/jackfruit.png" alt="Mít sấy">
+          </div>
+          <div class="sb-card sb-2">
+            <div class="sb-txt">
+              <h4>Combo Healthy</h4>
+              <span>Siết mỡ an toàn</span>
+            </div>
+            <img src="assets/images/banana.png" alt="Chuối">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===============================
+         2. USP COMPACT STRIP
+    ================================ -->
+    <div class="container mt-16">
+      <div class="usp-strip">
+        <div class="usp-item"><span>🍎</span> 100% Trái cây Việt Nam</div>
+        <div class="usp-item"><span>🚫</span> Không đường hóa học</div>
+        <div class="usp-item"><span>✨</span> Sấy lạnh giữ Vitamin</div>
+        <div class="usp-item"><span>📦</span> Đổi trả miễn phí 7 ngày</div>
+      </div>
+    </div>
+
+    <!-- ===============================
+         3. QUICK CATEGORY CIRCLES
+    ================================ -->
+    <div class="container mt-24">
+      <div class="quick-categories">
+        <a href="#" class="qc-item">
+          <div class="qc-img"><img src="assets/images/mango.png" alt="Xoài"></div>
+          <span>Xoài Sấy</span>
+        </a>
+        <a href="#" class="qc-item">
+          <div class="qc-img"><img src="assets/images/jackfruit.png" alt="Mít"></div>
+          <span>Mít Sấy</span>
+        </a>
+        <a href="#" class="qc-item">
+          <div class="qc-img"><img src="assets/images/banana.png" alt="Chuối"></div>
+          <span>Chuối Sấy</span>
+        </a>
+        <a href="#" class="qc-item">
+          <div class="qc-img"><img src="assets/images/strawberry.png" alt="Dâu"></div>
+          <span>Dâu Sấy</span>
+        </a>
+        <a href="#" class="qc-item">
+          <div class="qc-img"><img src="assets/images/apricots.png" alt="Mơ"></div>
+          <span>Mơ Khô</span>
+        </a>
+        <a href="#" class="qc-item">
+          <div class="qc-img"><img src="assets/images/almonds.png" alt="Hạt"></div>
+          <span>Hạt Mix</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- ===============================
+         4. SẢN PHẨM (FLASH SALE BÁN CHẠY)
+    ================================ -->
+    <div class="container mt-32" id="products">
+      <div class="ecom-section-header">
+        <h3 class="section-title">🔥 Bán Chạy Trực Tiếp Phân Xưởng</h3>
+        <a href="#" class="view-all">Xem tất cả ></a>
+      </div>
+      <div class="product-grid">
+        <!-- Item 1 -->
+        <div class="p-card">
+          <div class="p-img">
+            <span class="p-badge sale">-20%</span>
+            <img src="assets/images/mango.png" alt="Xoài sấy dẻo">
+          </div>
+          <div class="p-info">
+            <h4 class="p-name">Xoài Sấy Dẻo Khuyên Kẹp Loại 1 (200g)</h4>
+            <div class="p-prices">
+              <span class="p-price">68.000₫</span>
+              <del>85.000₫</del>
+            </div>
+            <div class="p-sold">Đã bán 2.1k</div>
+            <button class="btn btn-primary btn-add">Thêm vào giỏ</button>
+          </div>
+        </div>
+        <!-- Item 2 -->
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/images/jackfruit.png" alt="Mít sấy giòn">
+          </div>
+          <div class="p-info">
+            <h4 class="p-name">Mít Sấy Giòn Rụm Hàng Tiêu Chuẩn (150g)</h4>
+            <div class="p-prices">
+              <span class="p-price">70.000₫</span>
+            </div>
+            <div class="p-sold">Đã bán 1.8k</div>
+            <button class="btn btn-primary btn-add">Thêm vào giỏ</button>
+          </div>
+        </div>
+        <!-- Item 3 -->
+        <div class="p-card">
+          <div class="p-img">
+            <span class="p-badge">Mới</span>
+            <img src="assets/images/strawberry.png" alt="Dâu sấy">
+          </div>
+          <div class="p-info">
+            <h4 class="p-name">Dâu Tây Sấy Lạnh Chua Ngọt Tự Nhiên (100g)</h4>
+            <div class="p-prices">
+              <span class="p-price">115.000₫</span>
+            </div>
+            <div class="p-sold">Đã bán 890</div>
+            <button class="btn btn-primary btn-add">Thêm vào giỏ</button>
+          </div>
+        </div>
+        <!-- Item 4 -->
+        <div class="p-card">
+          <div class="p-img">
+            <img src="assets/images/banana.png" alt="Chuối sấy">
+          </div>
+          <div class="p-info">
+            <h4 class="p-name">Chuối Sấy Nguyên Bản Ít Đường (200g)</h4>
+            <div class="p-prices">
+              <span class="p-price">55.000₫</span>
+            </div>
+            <div class="p-sold">Đã bán 4.2k</div>
+            <button class="btn btn-primary btn-add">Thêm vào giỏ</button>
+          </div>
+        </div>
+        <!-- Item 5 -->
+        <div class="p-card">
+          <div class="p-img">
+            <span class="p-badge hotsale">Hot</span>
+            <img src="assets/images/apricots.png" alt="Mơ khô">
+          </div>
+          <div class="p-info">
+            <h4 class="p-name">Mơ Khô Thổ Nhĩ Kỳ KHÔNG ĐƯỜNG (200g)</h4>
+            <div class="p-prices">
+              <span class="p-price">99.000₫</span>
+            </div>
+            <div class="p-sold">Đã bán 3.1k</div>
+            <button class="btn btn-primary btn-add">Thêm vào giỏ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===============================
+         5. COMBO VÀ BÁN CHÉO (CROSS-SELL)
+    ================================ -->
+    <div class="container mt-40" id="combo">
+      <div class="ecom-section-header">
+        <h3 class="section-title">🎁 Combo Quà Tặng / Healthy</h3>
+      </div>
+      <div class="combo-banner">
+        <div class="cb-text">
+          <h3>Combo Ăn Thử Đủ Kiểu</h3>
+          <p>Trải nghiệm 5 loại trái cây sấy Best Seller với giá cực ưu đãi. Mua 1 được 5, đầy đủ dinh dưỡng cho ngày dài làm việc căng thẳng.</p>
+          <div class="cb-price">149.000₫ <del>200.000₫</del></div>
+          <button class="btn btn-primary mt-12">Mua Combo Ngay</button>
+        </div>
+        <div class="cb-images">
+          <img src="assets/images/mango.png" alt="mango">
+          <img src="assets/images/jackfruit.png" alt="jackfruit">
+          <img src="assets/images/strawberry.png" alt="strawberry">
+        </div>
+      </div>
+    </div>
+
+    <!-- ===============================
+         6. ĐÁNH GIÁ (SOCIAL PROOF) + BLOG TÓM TẮT
+    ================================ -->
+    <div class="container mt-40 infoblocks" id="about">
+      <div class="info-grid">
+        <!-- Đánh giá -->
+        <div class="mini-reviews">
+          <h3 class="section-title">Khách hàng nhận xét</h3>
+          <div class="r-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Xoài dẻo ngon nhất mình từng ăn, không bị ngọt khé. Mua về công ty ai cũng khen."</p>
+            <span>- Chị Lan, Hà Nội</span>
+          </div>
+          <div class="r-card">
+            <div class="stars">⭐⭐⭐⭐⭐</div>
+            <p>"Mua combo ăn thử rất đáng tiền. Packaging zip cẩn thận mang đi du lịch siêu tiện lợi."</p>
+            <span>- Anh Huy, TP.HCM</span>
+          </div>
+        </div>
+
+        <!-- Lợi ích / About Tóm Tắt -->
+        <div class="about-summary">
+          <h3 class="section-title">Về Snack Nature</h3>
+          <p class="mb-16">Chúng tôi cam kết sử dụng 100% trái cây tươi từ các nông trại sạch Việt Nam. Không chất bảo quản, duy trì trọn vẹn Vitamin bằng công nghệ sấy chân không hiện đại.</p>
+          <ul>
+            <li>✔ Rất tốt cho người ăn kiêng, Gym</li>
+            <li>✔ Snack an toàn tuyệt đối cho trẻ nhỏ</li>
+            <li>✔ Chuẩn vệ sinh an toàn thực phẩm ISO22000</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ===============================
+       E-COM FOOTER
+  ================================ -->
+  <footer class="ecom-footer mt-40">
+    <div class="container">
+      <div class="foot-grid">
+        <div class="fc">
+          <h2 class="logo">Snack<span>Nature</span></h2>
+          <p>Hotline: 1900 8888</p>
+          <p>Email: hotro@snacknature.vn</p>
+          <p>Địa chỉ: 123 Thái Hà, Đống Đa, Hà Nội</p>
+        </div>
+        <div class="fc">
+          <h4>Về chúng tôi</h4>
+          <a href="#">Giới thiệu</a>
+          <a href="#blog">Kiến thức sấy</a>
+          <a href="#">Hệ thống cửa hàng</a>
+          <a href="#">Đại lý chiết khấu</a>
+        </div>
+        <div class="fc">
+          <h4>Chính sách</h4>
+          <a href="#">Chính sách giao hàng</a>
+          <a href="#">Chính sách đổi trả</a>
+          <a href="#">Chính sách bảo mật</a>
+          <a href="#">Điều khoản sử dụng</a>
+        </div>
+        <div class="fc">
+          <h4>Đăng ký nhận mã giảm 15%</h4>
+          <div class="sub-form">
+            <input type="email" placeholder="Nhập email của bạn...">
+            <button class="btn btn-primary">Gửi</button>
+          </div>
+        </div>
+      </div>
+      <div class="foot-bottom mt-24">
+        <p>© 2026 Snack Nature Việt Nam. Mọi quyền được bảo lưu.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
